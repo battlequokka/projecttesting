@@ -91,8 +91,15 @@ li {
 ABOUT
 
 */
-#about{
+#about
+#discord,
+#contact {
     padding: 48x 0;
+
+}
+
+#about {
+    ackground-color: #f8ffdc
 }
 
 h2 {
@@ -109,8 +116,31 @@ h2 {
 
 .about__img--wrapper {
     width: 40%;
+    padding: 0 24px;
 }
 
 img {
     width: 100%;
+}
+
+.section__description--wrapper {
+    wdith: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+    background-color: #cefeff;
 }
