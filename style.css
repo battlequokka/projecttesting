@@ -93,7 +93,8 @@ ABOUT
 */
 #about
 #discord,
-#contact {
+#contact,
+footer {
     padding: 48x 0;
 
 }
@@ -143,4 +144,60 @@ DISCORD
 
 #discord {
     background-color: #cefeff;
+}
+
+
+
+
+
+/*
+
+CONTACT
+
+*/
+
+#contact {
+    background-color: #dce9ff
+}
+
+form {
+    width: 100px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    magin_bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottm: 16px;
+
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px:
 }
